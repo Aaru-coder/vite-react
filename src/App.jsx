@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-  <h1 style={{color:"red"}}>hello</h1>
+  <h1 style={{color:"red", backgroundColor:"black"}}>hello</h1>
     </div>
   )
 }
