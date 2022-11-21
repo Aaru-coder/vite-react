@@ -1,13 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-
+import { Container } from '@mui/system'
+import BMI from '../src/Component/BMI/BMI'
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <div className="App">
-  <h1 style={{color:"red", backgroundColor:"black"}}>hello</h1>
+      <Container maxWidth="xm">
+     <BMI/> 
+     </Container>
     </div>
   )
 }
