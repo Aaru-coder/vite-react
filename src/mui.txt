@@ -1,0 +1,4 @@
+app bar ==>>> navbar
+typography for ===>> styling text heading and paragraph
+for custom styling for a particular element style={{styling goes here}}
+Cssbaseline provide the default styling to mui 
