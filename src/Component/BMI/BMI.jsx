@@ -4,8 +4,8 @@ import TextField from "@mui/material/TextField";
 import { Container } from "@mui/system";
 import Button from "@mui/material/Button";
 import Gender from "../BMI/Gender";
-import { alignProperty } from "@mui/material/styles/cssUtils";
-export default function BMI(props) {
+
+export default function BMI() {
   return (
     <section>
       <Box
@@ -19,8 +19,8 @@ export default function BMI(props) {
         <TextField id="outlined-basic" label="Height" variant="outlined" />
         <TextField id="outlined-basic" label="Weight" variant="outlined" />
         <Gender />
-
-        <Button variant="contained">Calculate</Button>
+<div>
+        <Button variant="contained">Calculate</Button></div>
       </Box>
     </section>
   );
