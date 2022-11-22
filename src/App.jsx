@@ -1,22 +1,14 @@
-import { Container } from "@mui/system";
-import BMI from "../src/Component/BMI/BMI";
+import Bmi from "./Component/BMI/Bmi";
 import * as React from "react";
 
-import { CssBaseline, AppBar, Toolbar, Typography } from "@mui/material";
+import { CssBaseline } from "@mui/material";
+import Navbar from "./Component/Navbar/Navbar";
 function App() {
   return (
     <div className="App">
-      <React.Fragment>
-        <CssBaseline />
-        <AppBar >
-          <Toolbar variant="h2">
-            <Typography>Navbar</Typography>
-          </Toolbar>
-        </AppBar>
-        <Container maxWidth="sm">
-          <BMI />
-        </Container>
-      </React.Fragment>
+      <CssBaseline />
+      <Navbar />
+      <Bmi />
     </div>
   );
 }
